@@ -1,0 +1,47 @@
+.container__right{
+    width: 65%;
+}
+
+.card-box__container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+
+.card-versus{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+    height: 300px;
+}
+
+.versus-top,
+.versus-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.versus-bottom {
+    margin-top: 1rem;
+}
+
+#next-Duel{display: none;}
+
+.card-box {
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-infield{
+    height: 11.2rem;
+    width: 8rem;
+    border-radius: 8px;
+}
