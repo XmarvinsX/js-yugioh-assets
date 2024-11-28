@@ -10,8 +10,8 @@
     padding: 0.3rem;
 }
 
-.card-versus{
-    border: 1px solid red;
+.card-versus__container{
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     padding: 0.1rem;
